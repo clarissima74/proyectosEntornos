@@ -2,6 +2,7 @@ package Calculadora;
 
 public class Calculadora {
 
+	//AÃ±ado comentario en master
 	private int ultimo;
 	//constructor de la clase Calculadora
 	public Calculadora()
@@ -47,9 +48,9 @@ public class Calculadora {
 		
 		for(int i=0;i<nombres.length;i++)
 		{
-			if(nombres[i]=="Raúl")
+			if(nombres[i]=="RaÃºl")
 			{
-				ms="Sí";
+				ms="SÃ­";
 				break;
 			}
 		}
