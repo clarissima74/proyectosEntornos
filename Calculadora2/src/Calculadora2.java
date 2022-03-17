@@ -13,7 +13,7 @@ import org.eclipse.swt.widgets.Display;
 public class Calculadora2 {
 
 	//comentario escrito en GitHub
-
+//Siguiente comentario
 	// Constantes
 		final int MAX_DIGITOS = 5;
 		final int MODO_ENTRADA = 0;
