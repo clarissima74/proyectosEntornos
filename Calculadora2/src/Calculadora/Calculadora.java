@@ -8,6 +8,10 @@ public class Calculadora {
 	{
 		ultimo=0;
 	}
+	public Calculadora(int ultimo)
+	{
+		this.ultimo=ultimo;
+	}
 	public boolean CadenasIguales(String a,String b)
 	{
 		return a==b;
