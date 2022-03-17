@@ -12,7 +12,7 @@ import org.eclipse.swt.widgets.Display;
 
 public class Calculadora2 {
 
-	
+	//comentario escrito en GitHub
 
 	// Constantes
 		final int MAX_DIGITOS = 5;
@@ -34,7 +34,7 @@ public class Calculadora2 {
 	 
 		public Calculadora2(boolean gui) {		
 	 
-			//Inicializaci髇 de las variables.
+			//Inicializaci贸n de las variables.
 			inicializar();
 	 
 			if (gui==true) dibujaCalculadora();
@@ -48,10 +48,10 @@ public class Calculadora2 {
 			shlCalculadora.setText("Calculadora");
 	 
 			//-------------------------------------------------
-			//N鷐eros
+			//N煤meros
 			//-------------------------------------------------
 	 
-			//bot髇 con el n鷐ero 0
+			//bot贸n con el n煤mero 0
 			Button button_0 = new Button(shlCalculadora, SWT.NONE);
 			button_0.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -62,7 +62,7 @@ public class Calculadora2 {
 			button_0.setText("0");
 			button_0.setBounds(23, 163, 40, 33);
 	 
-			//bot髇 con el n鷐ero 1
+			//bot贸n con el n煤mero 1
 			Button button_1 = new Button(shlCalculadora, SWT.NONE);
 			button_1.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -73,7 +73,7 @@ public class Calculadora2 {
 			button_1.setText("1");
 			button_1.setBounds(23, 124, 40, 33);
 	 
-			//bot髇 con el n鷐ero 2
+			//bot贸n con el n煤mero 2
 			Button button_2 = new Button(shlCalculadora, SWT.NONE);
 			button_2.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -84,7 +84,7 @@ public class Calculadora2 {
 			button_2.setText("2");
 			button_2.setBounds(69, 124, 40, 33);
 	 
-			//bot髇 con el n鷐ero 3
+			//bot贸n con el n煤mero 3
 			Button button_3 = new Button(shlCalculadora, SWT.NONE);
 			button_3.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -95,7 +95,7 @@ public class Calculadora2 {
 			button_3.setText("3");
 			button_3.setBounds(115, 124, 40, 33);
 	 
-			//bot髇 con el n鷐ero 4
+			//bot贸n con el n煤mero 4
 			Button button_4 = new Button(shlCalculadora, SWT.NONE);
 			button_4.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -106,7 +106,7 @@ public class Calculadora2 {
 			button_4.setText("4");
 			button_4.setBounds(23, 85, 40, 33);
 	 
-			//bot髇 con el n鷐ero 5
+			//bot贸n con el n煤mero 5
 			Button button_5 = new Button(shlCalculadora, SWT.NONE);
 			button_5.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -117,7 +117,7 @@ public class Calculadora2 {
 			button_5.setText("5");
 			button_5.setBounds(69, 85, 40, 33);
 	 
-			//bot髇 con el n鷐ero 6
+			//bot贸n con el n煤mero 6
 			Button button_6 = new Button(shlCalculadora, SWT.NONE);
 			button_6.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -128,7 +128,7 @@ public class Calculadora2 {
 			button_6.setText("6");
 			button_6.setBounds(115, 85, 40, 33);
 	 
-			//bot髇 con el n鷐ero 7
+			//bot贸n con el n煤mero 7
 			Button button_7 = new Button(shlCalculadora, SWT.NONE);
 			button_7.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -139,7 +139,7 @@ public class Calculadora2 {
 			button_7.setText("7");
 			button_7.setBounds(23, 46, 40, 33);
 	 
-			//bot髇 con el n鷐ero 8
+			//bot贸n con el n煤mero 8
 			Button button_8 = new Button(shlCalculadora, SWT.NONE);
 			button_8.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -150,7 +150,7 @@ public class Calculadora2 {
 			button_8.setBounds(69, 46, 40, 33);
 			button_8.setText("8");
 	 
-			//bot髇 con el n鷐ero 9
+			//bot贸n con el n煤mero 9
 			Button button_9 = new Button(shlCalculadora, SWT.NONE);
 			button_9.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -164,7 +164,7 @@ public class Calculadora2 {
 			//Operaciones
 			//-------------------------------------------------
 	 
-			//bot髇 con la operaci髇 de divisi髇
+			//bot贸n con la operaci贸n de divisi贸n
 			Button button_12 = new Button(shlCalculadora, SWT.NONE);
 			button_12.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -175,7 +175,7 @@ public class Calculadora2 {
 			button_12.setText("/");
 			button_12.setBounds(178, 46, 40, 33);
 	 
-			//bot髇 con la operaci髇 de multiplicaci髇
+			//bot贸n con la operaci贸n de multiplicaci贸n
 			Button button_13 = new Button(shlCalculadora, SWT.NONE);
 			button_13.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -186,7 +186,7 @@ public class Calculadora2 {
 			button_13.setText("*");
 			button_13.setBounds(178, 85, 40, 33);
 	 
-			//bot髇 con la operaci髇 de suma
+			//bot贸n con la operaci贸n de suma
 			Button button_14 = new Button(shlCalculadora, SWT.NONE);
 			button_14.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -197,7 +197,7 @@ public class Calculadora2 {
 			button_14.setText("+");
 			button_14.setBounds(178, 124, 40, 33);
 	 
-			//bot髇 con la operaci髇 de resta
+			//bot贸n con la operaci贸n de resta
 			Button button_15 = new Button(shlCalculadora, SWT.NONE);
 			button_15.addSelectionListener(new SelectionAdapter() {
 				@Override
@@ -208,7 +208,7 @@ public class Calculadora2 {
 			button_15.setText("-");
 			button_15.setBounds(178, 163, 40, 33);
 	 
-			//bot髇 con la operaci髇 de igual
+			//bot贸n con la operaci贸n de igual
 			Button button_11 = new Button(shlCalculadora, SWT.NONE);
 			button_11.addSelectionListener(new SelectionAdapter() {
 				@Override
