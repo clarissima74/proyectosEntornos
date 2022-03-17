@@ -10,6 +10,7 @@ public class Calculadora {
 	}
 	public Calculadora(int ultimo)
 	{
+		//añado el comentario desde Dev1
 		this.ultimo=ultimo;
 	}
 	public boolean CadenasIguales(String a,String b)
