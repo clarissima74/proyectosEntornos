@@ -4,13 +4,14 @@ public class Calculadora {
 
 	private int ultimo;
 	//constructor de la clase Calculadora
+	//a√±ado este comentario en GitHub
 	public Calculadora()
 	{
 		ultimo=0;
 	}
 	public Calculadora(int ultimo)
 	{
-		//aÒado el comentario desde Dev1
+		//a√±ado el comentario desde Dev1
 		this.ultimo=ultimo;
 	}
 	public boolean CadenasIguales(String a,String b)
@@ -48,9 +49,9 @@ public class Calculadora {
 		
 		for(int i=0;i<nombres.length;i++)
 		{
-			if(nombres[i]=="Ra˙l")
+			if(nombres[i]=="Ra√∫l")
 			{
-				ms="SÌ";
+				ms="S√≠";
 				break;
 			}
 		}
